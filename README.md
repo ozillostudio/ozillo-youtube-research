@@ -1,5 +1,7 @@
 <div align="center">
 
+<h3>🇬🇧 English &nbsp;|&nbsp; <a href="README.tr.md">🇹🇷 Türkçe için tıklayın →</a></h3>
+
 <img src=".claude-plugin/icon.png" alt="Ozillo Studio" width="112">
 
 # Ozillo YouTube Research
@@ -13,7 +15,6 @@ and get answers backed by real videos, not guesses.
 [![Skills](https://img.shields.io/badge/skills-13-6E4A5A?style=flat-square)](#skills)
 [![MCP tools](https://img.shields.io/badge/MCP_tools-31-6E4A5A?style=flat-square)](#mcp-tools)
 [![License: MIT](https://img.shields.io/badge/license-MIT-3B3B3B?style=flat-square)](LICENSE)
-[![Türkçe](https://img.shields.io/badge/dil-Türkçe-E30A17?style=flat-square)](README.tr.md)
 
 [Install](#install) · [Skills](#skills) · [Examples](#try-it) · [How it works](#how-it-works) · [Concepts](#concepts) · [FAQ](#faq) · [About](#about)
 

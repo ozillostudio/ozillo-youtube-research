@@ -1,5 +1,7 @@
 <div align="center">
 
+<h3>🇹🇷 Türkçe &nbsp;|&nbsp; <a href="README.md">🇬🇧 English version →</a></h3>
+
 <img src=".claude-plugin/icon.png" alt="Ozillo Studio" width="112">
 
 # Ozillo YouTube Research
@@ -13,7 +15,6 @@ cevaplar tahmine değil, gerçek videolara dayansın.
 [![Skill](https://img.shields.io/badge/skill-13-6E4A5A?style=flat-square)](#skiller)
 [![MCP araçları](https://img.shields.io/badge/MCP_araçları-31-6E4A5A?style=flat-square)](#mcp-araclari)
 [![Lisans: MIT](https://img.shields.io/badge/lisans-MIT-3B3B3B?style=flat-square)](LICENSE)
-[![English](https://img.shields.io/badge/lang-English-0A3161?style=flat-square)](README.md)
 
 [Kurulum](#kurulum) · [Skill'ler](#skiller) · [Örnekler](#deneyin) · [Nasıl çalışır](#nasil-calisir) · [Kavramlar](#kavramlar) · [SSS](#sss) · [Hakkında](#hakkinda)
 
