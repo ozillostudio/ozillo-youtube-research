@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "ozillo": {
+      "type": "http",
+      "url": "https://studio.ozillo.com/mcp"
+    }
+  }
+}

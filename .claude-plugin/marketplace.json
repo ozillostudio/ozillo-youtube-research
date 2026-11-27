@@ -1,0 +1,31 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "ozillo-youtube-research",
+  "owner": {
+    "name": "Ozillo Studio"
+  },
+  "metadata": {
+    "description": "YouTube research skills for Claude Code, powered by Ozillo Studio data."
+  },
+  "plugins": [
+    {
+      "name": "ozillo-youtube-research",
+      "source": "./",
+      "description": "13 YouTube research skills on Ozillo Studio data: find, check, break down and bend niches; turn outlier videos into video ideas, titles, thumbnails and script templates; mine comments; break down, audit and watch channels and competitors; scout sponsors. Connects to the Ozillo Studio MCP server (an Ozillo Studio account with an active paid plan is required).",
+      "author": {
+        "name": "Ozillo Studio"
+      },
+      "category": "marketing",
+      "keywords": [
+        "youtube",
+        "niche-research",
+        "outliers",
+        "video-ideas",
+        "titles",
+        "thumbnails",
+        "competitor-analysis",
+        "ozillo"
+      ]
+    }
+  ]
+}

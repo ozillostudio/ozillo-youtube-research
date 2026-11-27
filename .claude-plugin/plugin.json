@@ -1,0 +1,20 @@
+{
+  "name": "ozillo-youtube-research",
+  "version": "0.2.0",
+  "description": "13 YouTube research skills on Ozillo Studio data: find, check, break down and bend niches; turn outlier videos into video ideas, titles, thumbnails and script templates; mine comments; break down, audit and watch channels and competitors; scout sponsors. Connects to the Ozillo Studio MCP server (an Ozillo Studio account with an active paid plan is required).",
+  "author": {
+    "name": "Ozillo Studio"
+  },
+  "license": "MIT",
+  "keywords": [
+    "youtube",
+    "niche-research",
+    "outliers",
+    "video-ideas",
+    "competitor-analysis",
+    "ozillo"
+  ],
+  "privacyPolicyUrl": "https://ozillo.com/privacy/",
+  "homepage": "https://github.com/ozillostudio/ozillo-youtube-research",
+  "repository": "https://github.com/ozillostudio/ozillo-youtube-research"
+}
