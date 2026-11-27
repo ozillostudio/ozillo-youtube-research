@@ -607,22 +607,6 @@ Your requests go to Ozillo Studio under your account, like using the website. Th
 
 ---
 
-## 🗺 Roadmap
-
-- **Trend report:** what is rising right now. It needs fresh view counts, so it comes with an on-demand refresh of recent uploads.
-- **Your idea?** [Open an issue](https://github.com/ozillostudio/ozillo-youtube-research/issues).
-
-## 🤝 Contributing
-
-Issues and pull requests are welcome. When you change a skill:
-
-- keep instructions in English (Claude answers in the user's language),
-- name only tools that exist in [`tools.md`](skills/ozillo-data/references/tools.md),
-- never let a skill state a number it did not get from a tool,
-- run `claude plugin validate .` before opening a pull request.
-
----
-
 <div align="center">
 
 <sub>Made by <a href="https://studio.ozillo.com">Ozillo Studio</a> · <a href="LICENSE">MIT License</a> · <a href="README.tr.md">Türkçe</a></sub>

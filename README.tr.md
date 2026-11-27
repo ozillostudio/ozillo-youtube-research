@@ -607,22 +607,6 @@ Ozillo milyonlarca videonun izlenmesini belirli aralıklarla kaydeder. Oranlar b
 
 ---
 
-## 🗺 Yol haritası
-
-- **Trend raporu:** şu an yükselen ne. Taze izlenme sayısı gerektirdiği için son yüklemelerin istek üzerine yenilenmesiyle birlikte gelecek.
-- **Sizin fikriniz?** [Bir issue açın](https://github.com/ozillostudio/ozillo-youtube-research/issues).
-
-## 🤝 Katkıda bulunma
-
-Issue'lar ve pull request'ler memnuniyetle karşılanır. Bir skill'i değiştirirken:
-
-- talimatları İngilizce tutun (Claude kullanıcının dilinde cevap verir),
-- yalnızca [`tools.md`](skills/ozillo-data/references/tools.md) dosyasında bulunan araçları adlandırın,
-- bir skill'in araçtan almadığı bir rakamı söylemesine asla izin vermeyin,
-- pull request açmadan önce `claude plugin validate .` çalıştırın.
-
----
-
 <div align="center">
 
 <sub><a href="https://studio.ozillo.com">Ozillo Studio</a> tarafından yapıldı · <a href="LICENSE">MIT Lisansı</a> · <a href="README.md">English</a></sub>
