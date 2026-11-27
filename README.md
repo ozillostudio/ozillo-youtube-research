@@ -62,12 +62,44 @@ Channel · "Video title" · 123K views · ×8.4 · 2026-03-14
 
 ## 🚀 Install
 
-**1. Add the marketplace and install the plugin** in Claude Code:
+Pick the app you use. Both routes install the 13 skills and the Ozillo Studio connection.
+
+> [!IMPORTANT]
+> You need an [Ozillo Studio](https://studio.ozillo.com) account with an **active paid plan**. The MCP server refuses accounts without one.
+
+### 🖥 Claude Desktop and claude.ai (chat and Cowork)
+
+1. Open **Customize → Plugins** ([claude.ai/customize/plugins](https://claude.ai/customize/plugins)), choose **Add → Add marketplace** and enter:
+
+   ```text
+   ozillostudio/ozillo-youtube-research
+   ```
+
+2. Open the plugin and go to its **Connectors** tab. Next to Ozillo Studio, click **Connect** and sign in to your Ozillo account in the browser.
+3. Start a new chat and ask: *"Use Ozillo to check my account status."*
+
+A plugin added here is saved to your Claude account, so it also shows up in Cowork and in Claude Code on the same account.
+
+<details>
+<summary><b>Team and Enterprise plans, or connector only</b></summary>
+
+<br>
+
+- **Team and Enterprise:** an organization Owner decides which plugin sources members can add, and adds connectors for the organization (**Organization settings → Connectors**). Ask your Owner if you can't add the marketplace or connect.
+- **Only the data, without the skills:** add the server as a custom connector in **Customize → Connectors → Add → Add custom connector**, with the URL `https://studio.ozillo.com/mcp`, then click **Connect** and sign in. Free plans allow one custom connector.
+
+</details>
+
+### ⌨️ Claude Code (terminal, IDE and the Desktop Code tab)
+
+**1. Add the marketplace and install the plugin:**
 
 ```text
 /plugin marketplace add ozillostudio/ozillo-youtube-research
 /plugin install ozillo-youtube-research@ozillo-youtube-research
 ```
+
+In the Claude Desktop **Code** tab, run the same two commands once in a terminal as `claude plugin marketplace add …` and `claude plugin install …`. The terminal and the Desktop app share their settings, so the plugin then appears under **+ → Add plugins**.
 
 **2. Sign in to Ozillo Studio:** run `/mcp`, select **`ozillo`**, choose **Authenticate** and approve access in the browser.
 
@@ -79,11 +111,8 @@ Use Ozillo to check my account status.
 
 Claude answers with your plan and token balance. If not, see [Troubleshooting](#troubleshooting).
 
-> [!IMPORTANT]
-> You need [Claude Code](https://claude.com/claude-code) and an [Ozillo Studio](https://studio.ozillo.com) account with an **active paid plan**. The MCP server refuses accounts without one.
-
 <details>
-<summary><b>Updating, removing, and using it outside Claude Code</b></summary>
+<summary><b>Updating, removing, and other MCP clients</b></summary>
 
 <br>
 
@@ -97,8 +126,6 @@ The MCP server works with any client that supports remote MCP servers with OAuth
 ```text
 https://studio.ozillo.com/mcp
 ```
-
-In claude.ai, add it as a custom connector (Settings → Connectors). On Team and Enterprise plans only an organization owner can add connectors. The files under `skills/` can be uploaded to claude.ai as custom skills.
 
 </details>
 
@@ -566,7 +593,7 @@ The server exposes **31 tools**. The skills choose them for you; you can also as
 
 | Problem | What to do |
 |---|---|
-| "The Ozillo tools are not available" | Run `/mcp`, select `ozillo`, choose **Authenticate** and sign in. |
+| "The Ozillo tools are not available" | **Claude Code:** run `/mcp`, select `ozillo`, choose **Authenticate** and sign in. **Claude Desktop / claude.ai:** open the plugin's **Connectors** tab and click **Connect**. |
 | "Requires an active paid subscription" | MCP access needs a paid plan. Check it at [studio.ozillo.com](https://studio.ozillo.com). |
 | Can't add the connector in claude.ai | On Team/Enterprise, an organization owner adds connectors. Ask them, or use Claude Code. |
 | `match_quality: weak` keeps coming back | Describe the niche in a few plain words. A niche that never matches may be very small on YouTube. |

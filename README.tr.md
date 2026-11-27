@@ -62,12 +62,44 @@ Kanal · "Video başlığı" · 123B izlenme · ×8,4 · 2026-03-14
 
 ## 🚀 Kurulum
 
-**1. Marketplace'i ekleyin ve plugin'i kurun** (Claude Code'da):
+Kullandığınız uygulamayı seçin. İki yol da 13 skill'i ve Ozillo Studio bağlantısını kurar.
+
+> [!IMPORTANT]
+> **Aktif ücretli planı** olan bir [Ozillo Studio](https://studio.ozillo.com) hesabı gerekir. MCP sunucusu ücretli planı olmayan hesapları kabul etmez.
+
+### 🖥 Claude Desktop ve claude.ai (sohbet ve Cowork)
+
+1. **Customize → Plugins** sayfasını açın ([claude.ai/customize/plugins](https://claude.ai/customize/plugins)), **Add → Add marketplace**'i seçin ve şunu girin:
+
+   ```text
+   ozillostudio/ozillo-youtube-research
+   ```
+
+2. Plugin'i açıp **Connectors** sekmesine gidin. Ozillo Studio'nun yanındaki **Connect**'e tıklayın ve tarayıcıda Ozillo hesabınızla giriş yapın.
+3. Yeni bir sohbet açıp sorun: *"Ozillo hesap durumumu kontrol et."*
+
+Buradan eklenen plugin Claude hesabınıza kaydedilir; aynı hesapla Cowork'te ve Claude Code'da da görünür.
+
+<details>
+<summary><b>Team ve Enterprise planları ya da yalnızca connector</b></summary>
+
+<br>
+
+- **Team ve Enterprise:** üyelerin hangi plugin kaynaklarını ekleyebileceğine organizasyon sahibi (Owner) karar verir ve connector'ları organizasyon için o ekler (**Organization settings → Connectors**). Marketplace ekleyemiyor ya da bağlanamıyorsanız Owner'ınıza başvurun.
+- **Skill'ler olmadan yalnızca veri:** sunucuyu **Customize → Connectors → Add → Add custom connector** ile `https://studio.ozillo.com/mcp` adresini girerek özel connector olarak ekleyin, sonra **Connect**'e tıklayıp giriş yapın. Ücretsiz planda tek bir özel connector eklenebilir.
+
+</details>
+
+### ⌨️ Claude Code (terminal, IDE ve Desktop'taki Code sekmesi)
+
+**1. Marketplace'i ekleyin ve plugin'i kurun:**
 
 ```text
 /plugin marketplace add ozillostudio/ozillo-youtube-research
 /plugin install ozillo-youtube-research@ozillo-youtube-research
 ```
+
+Claude Desktop'taki **Code** sekmesi için aynı iki komutu bir kez terminalde `claude plugin marketplace add …` ve `claude plugin install …` olarak çalıştırın. Terminal ve Desktop uygulaması ayarlarını paylaşır; plugin ardından **+ → Add plugins** altında görünür.
 
 **2. Ozillo Studio'ya giriş yapın:** `/mcp` yazın, **`ozillo`** sunucusunu seçin, **Authenticate**'e basın ve tarayıcıda erişimi onaylayın.
 
@@ -79,11 +111,8 @@ Ozillo hesap durumumu kontrol et.
 
 Claude plan adınızı ve token bakiyenizi söyler. Söylemezse [Sorun giderme](#sorun-giderme) bölümüne bakın.
 
-> [!IMPORTANT]
-> [Claude Code](https://claude.com/claude-code) ve **aktif ücretli planı** olan bir [Ozillo Studio](https://studio.ozillo.com) hesabı gerekir. MCP sunucusu ücretli planı olmayan hesapları kabul etmez.
-
 <details>
-<summary><b>Güncelleme, kaldırma ve Claude Code dışında kullanım</b></summary>
+<summary><b>Güncelleme, kaldırma ve diğer MCP istemcileri</b></summary>
 
 <br>
 
@@ -97,8 +126,6 @@ MCP sunucusu, OAuth destekli uzak MCP sunucularını kullanabilen her istemciyle
 ```text
 https://studio.ozillo.com/mcp
 ```
-
-claude.ai'de özel bağlayıcı olarak ekleyin (Ayarlar → Bağlayıcılar). Team ve Enterprise planlarında bağlayıcıları yalnızca organizasyon sahibi ekleyebilir. `skills/` klasöründeki dosyalar claude.ai'ye özel skill olarak yüklenebilir.
 
 </details>
 
@@ -566,7 +593,7 @@ Sunucu **31 araç** sunar. Skill'ler bunları sizin yerinize seçer; isterseniz 
 
 | Sorun | Ne yapmalı |
 |---|---|
-| "Ozillo araçları kullanılamıyor" | `/mcp` yazın, `ozillo`'yu seçin, **Authenticate**'e basıp giriş yapın. |
+| "Ozillo araçları kullanılamıyor" | **Claude Code:** `/mcp` yazın, `ozillo`'yu seçin, **Authenticate**'e basıp giriş yapın. **Claude Desktop / claude.ai:** plugin'in **Connectors** sekmesini açıp **Connect**'e tıklayın. |
 | "Aktif ücretli abonelik gerekiyor" | MCP erişimi ücretli plan ister. Planınızı [studio.ozillo.com](https://studio.ozillo.com)'da kontrol edin. |
 | claude.ai'de bağlayıcı eklenemiyor | Team/Enterprise'da bağlayıcıları organizasyon sahibi ekler. Ondan isteyin ya da Claude Code kullanın. |
 | `match_quality: weak` gelmeye devam ediyor | Nişi birkaç sade kelimeyle tarif edin. Hiç eşleşmeyen bir niş YouTube'da çok küçük olabilir. |
