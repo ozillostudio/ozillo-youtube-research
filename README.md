@@ -15,7 +15,7 @@ and get answers backed by real videos, not guesses.
 [![License: MIT](https://img.shields.io/badge/license-MIT-3B3B3B?style=flat-square)](LICENSE)
 [![Türkçe](https://img.shields.io/badge/dil-Türkçe-E30A17?style=flat-square)](README.tr.md)
 
-[Install](#install) · [Skills](#skills) · [Examples](#try-it) · [How it works](#how-it-works) · [Concepts](#concepts) · [FAQ](#faq)
+[Install](#install) · [Skills](#skills) · [Examples](#try-it) · [How it works](#how-it-works) · [Concepts](#concepts) · [FAQ](#faq) · [About](#about)
 
 </div>
 
@@ -607,8 +607,47 @@ Your requests go to Ozillo Studio under your account, like using the website. Th
 
 ---
 
+<a id="about"></a>
+
+## 🏢 About Ozillo Studio
+
+<table>
+<tr>
+<td width="140" valign="top" align="center">
+<a href="https://ozillo.com/?utm_source=github&utm_medium=readme&utm_campaign=ozillo-youtube-research&utm_content=about_logo"><img src=".claude-plugin/icon.png" alt="Ozillo Studio" width="110"></a>
+</td>
+<td valign="top">
+
+**[Ozillo Studio](https://ozillo.com/?utm_source=github&utm_medium=readme&utm_campaign=ozillo-youtube-research&utm_content=about_intro)** is a YouTube creator assistant that cuts 3 days of YouTube research down to minutes. It scans YouTube data and surfaces niche opportunities, competitor strategies and ready-to-break content ideas, so you know which niche to enter and how to win it.
+
+This plugin brings Ozillo's data into Claude. The full app goes further, all in one tab:
+
+- **Niche discovery:** Niche Cloud, Random Niche and trending videos
+- **Competitor tracking:** rivals' new videos, Shorts and live streams, similar channels and channel comparison
+- **Thumbnail tools:** thumbnail search, preview, AI click score and image-to-prompt
+- **Script tools:** policy analysis, video chapters and community posts
+- **Growth:** collections, strategy notes, unlimited TransFlow translation, a creator forum and weekly expert blogs
+
+</td>
+</tr>
+</table>
+
 <div align="center">
 
-<sub>Made by <a href="https://studio.ozillo.com">Ozillo Studio</a> · <a href="LICENSE">MIT License</a> · <a href="README.tr.md">Türkçe</a></sub>
+<a href="https://ozillo.com/?utm_source=github&utm_medium=readme&utm_campaign=ozillo-youtube-research&utm_content=about_cta"><img src="https://img.shields.io/badge/Find_my_niche-ozillo.com-8E3B5A?style=for-the-badge" alt="Find my niche on ozillo.com"></a>
+<a href="https://studio.ozillo.com/?utm_source=github&utm_medium=readme&utm_campaign=ozillo-youtube-research&utm_content=about_studio"><img src="https://img.shields.io/badge/Open-Ozillo_Studio-24292F?style=for-the-badge" alt="Open Ozillo Studio"></a>
+
+<a href="https://www.youtube.com/@ozillostudio"><img src="https://img.shields.io/badge/YouTube-@ozillostudio-FF0000?style=flat-square&logo=youtube&logoColor=white" alt="Ozillo Studio on YouTube"></a>
+<a href="https://www.instagram.com/ozillostudio/"><img src="https://img.shields.io/badge/Instagram-ozillostudio-E4405F?style=flat-square&logo=instagram&logoColor=white" alt="Ozillo Studio on Instagram"></a>
+<a href="https://x.com/ozillocom"><img src="https://img.shields.io/badge/X-@ozillocom-000000?style=flat-square&logo=x&logoColor=white" alt="Ozillo on X"></a>
+<a href="mailto:info@ozillostudio.com"><img src="https://img.shields.io/badge/Email-info@ozillostudio.com-6E4A5A?style=flat-square&logo=maildotru&logoColor=white" alt="Email Ozillo Studio"></a>
+
+</div>
+
+---
+
+<div align="center">
+
+<sub>Made by <a href="https://ozillo.com/?utm_source=github&utm_medium=readme&utm_campaign=ozillo-youtube-research&utm_content=footer">Ozillo Studio</a> · <a href="LICENSE">MIT License</a> · <a href="README.tr.md">Türkçe</a></sub>
 
 </div>
