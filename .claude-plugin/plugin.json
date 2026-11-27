@@ -16,5 +16,8 @@
   ],
   "privacyPolicyUrl": "https://ozillo.com/privacy/",
   "homepage": "https://github.com/ozillostudio/ozillo-youtube-research",
-  "repository": "https://github.com/ozillostudio/ozillo-youtube-research"
+  "repository": "https://github.com/ozillostudio/ozillo-youtube-research",
+  "icon": "./.claude-plugin/icon.png",
+  "documentationUrl": "https://github.com/ozillostudio/ozillo-youtube-research#readme",
+  "supportUrl": "https://github.com/ozillostudio/ozillo-youtube-research/issues"
 }
